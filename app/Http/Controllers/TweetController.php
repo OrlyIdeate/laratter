@@ -8,7 +8,7 @@ use Validator;
 use App\Models\Tweet;
 use App\Models\User;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
 class TweetController extends Controller
 {
